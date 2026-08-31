@@ -2,7 +2,7 @@
 
 [![super-linter](../../actions/workflows/super-linter.yml/badge.svg)](../../actions/workflows/super-linter.yml) ![human-only code](https://img.shields.io/badge/human--only-code-white)
 
-This repository holds digital assets associated with the article "Low-cost
+This repository holds digital resources associated with the article "Low-cost
 Paretonian DBSCAN Parameter Estimation for Sklearn". [[1](#references)].
 
 ---
