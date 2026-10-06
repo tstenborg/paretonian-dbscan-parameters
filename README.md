@@ -83,6 +83,10 @@ Installing a Python package, e.g., numpy:
 
     pip install numpy
 
+Installing dependencies listed in `requirements.txt`:
+
+    pip install -r requirements.txt
+
 Installing a Python package at a specific version, e.g., numpy 2.5.1:
 
     pip install numpy==2.5.1
