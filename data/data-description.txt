@@ -1,0 +1,54 @@
+Overview
+
+    The file "mag-grav1vd.csv" holds magnetic and gravity survey data from a
+    site near Cloncurry, east of Mount Isa, Queensland.
+
+    Data source: Geoscience Australia Portal, by Geoscience Australia.
+
+Fields
+
+    Lon: Longitude (degrees east).
+    Lat: Latitude (degrees north).
+    Mag: Reduced to Pole magnetic map (nT).
+    Grav_1vd: First vertical derivative of Bouguer gravity anomaly map (mGal/m).
+
+Geographic Coordinate System
+
+    Angular unit: 0.0174532925199433 degrees.
+
+    Datum: Geocentric Datum of Australia 1994 (GDA94).
+        Notes: Reference ellipsoid is GRS80 (Geodetic Reference System 1980).
+
+    Longitude of prime meridian: 0.0 degrees.
+        Notes: Angular distance offset from the standard Greenwich meridian.
+
+    Semi-major axis: 6,378,137.0 metres.
+        Notes: Equatorial radius, i.e., radius from the centre of the Earth to
+               the equator.
+
+    Inverse flattening: 298.257222101.
+        Notes: Quantifies how much the Earth's sphere is flattened at the poles
+               compared to the equator.
+               Defined as a / (a - b)
+
+               where,
+                   a = semi-major axis,
+                   b = semi-minor axis (polar radius, i.e. radius from the
+                                        centre of the Earth to a pole).
+
+Geotransform Coefficients
+
+    GT(0): 107.9979166666667
+    GT(1):   0.004166666666666667
+    GT(2):   0
+    GT(3):  -7.997916666666669
+    GT(4):   0
+    GT(5):  -0.004166666666666667
+
+    where,
+        GT(0): X-coordinate of the upper-left corner of the upper-left pixel,
+        GT(1): east-west pixel resolution / pixel width,
+        GT(2): row rotation,
+        GT(3): Y-coordinate of the upper-left corner of the upper-left pixel,
+        GT(4): column rotation,
+        GT(5): north-south pixel resolution / pixel height.
